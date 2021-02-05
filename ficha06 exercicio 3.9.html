@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<body>
+     <!--div.wrapper>div.quadrado*3-->
+   <div class="wrapper">
+    <div class="quadrado"></div>  
+    <div class="verde"></div>
+    <div class="vermelho"></div>
+            
+</div>
+<style>
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: start; 
+        height: 100vh;
+        width: 100%;
+    }
+    .quadrado{
+        width: 50px;
+        height: 50px;
+          margin: 5px;
+        background-color: blue;
+        color: black;
+        font-size: 50px;
+    }
+    .verde{
+        width: 50px;
+        height: 50px;  
+        margin: 5px;        
+        background-color: green;
+    }
+    .vermelho{
+        width: 50px;
+        height: 50px;   
+        margin: 5px;       
+        background-color:red;
+    }
+</style> 
+</body>
+</html>
